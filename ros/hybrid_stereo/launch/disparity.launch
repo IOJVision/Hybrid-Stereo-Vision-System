@@ -1,0 +1,5 @@
+<launch>
+
+	<!--Start Nav Test -->
+	<node pkg="hybrid_stereo" type="disparitySter.py" name="Disparity_stereo" output="screen" />
+</launch>

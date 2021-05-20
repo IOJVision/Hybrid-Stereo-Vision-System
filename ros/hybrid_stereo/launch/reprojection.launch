@@ -1,0 +1,5 @@
+<launch>
+
+	<!--Start Nav Test -->
+	<node pkg="hybrid_stereo" type="reprojVisual.py" name="reproj_vision" output="screen" />
+</launch>
